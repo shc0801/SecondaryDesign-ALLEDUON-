@@ -51,6 +51,8 @@
                 </div>
             </div>
         </div>
+        <!--  -->
+
         <!-- header-main -->
         <div class="header-main h-65">
             <div class="header-main-container h-100 container d-flex">
@@ -89,6 +91,8 @@
                 </div>
             </div>
         </div>
+        <!--  -->
+
         <!-- header-footer -->
         <div class="header-footer h-25"> 
             <div class="header-footer-container h-100 container">
@@ -101,27 +105,40 @@
                 </ul>
             </div>
         </div>
+        <!--  -->
     </header>
+    <!--  -->
+
     <!-- <section> -->
     <section class="w-85 float-right d-flex flex-column">
         <!-- visual -->
         <div id="visual">
             <div class="visual-container h-100 container position-relative">
-                <div class="visual-slider h-100 pt-1">
-                    <div class="slider-1">
-                        <img class="w-100" src="./images/visual/visual-slider-1.png" alt="">
+                <input type="radio" name="slide-checkbox" id="slide-checkbox1" checked>
+                <input type="radio" name="slide-checkbox" id="slide-checkbox2">
+                <input type="radio" name="slide-checkbox" id="slide-checkbox3">
+                <div class="visual-slider-form h-100 overflow-hidden">
+                    <div class="visual-slider position-relative h-100 pt-1">
+                        <div class="slider-1 position-absolute">
+                            <img class="w-100 float-left" src="./images/visual/visual-slider-1.png" alt="">
+                        </div>
+                        <div class="slider-2 position-absolute">
+                            <img class="w-100 float-left" src="./images/visual/visual-slider-2.png" alt="">
+                        </div>
+                        <div class="slider-3 position-absolute">
+                            <img class="w-100 float-left" src="./images/visual/visual-slider-3.png" alt="">
+                        </div>
                     </div>
                 </div>
-                <div class="slide-checkbox w-30 position-absolute">
-                    <input type="radio" name="slide-checkbox" id="slide-checkbox1">
-                    <input type="radio" name="slide-checkbox" id="slide-checkbox2">
-                    <input type="radio" name="slide-checkbox" id="slide-checkbox3">
-                    <label class="slide-checkbox1 w-9 h-100 pl-2 pr-2" for="slide-checkbox1"></label>
-                    <label class="slide-checkbox2 w-9 h-100 pl-2 pr-2" for="slide-checkbox2"></label>
-                    <label class="slide-checkbox3 w-9 h-100 pl-2 pr-2" for="slide-checkbox3"></label>
+                <div class="slide-checkbox w-10 position-absolute d-flex justify-content-center justify-content-around ">
+                    <label class="slide-checkbox1 w-25 h-100 pl-2 pr-2" for="slide-checkbox1"></label>
+                    <label class="slide-checkbox2 w-25 h-100 pl-2 pr-2" for="slide-checkbox2"></label>
+                    <label class="slide-checkbox3 w-25 h-100 pl-2 pr-2" for="slide-checkbox3"></label>
                 </div>
             </div>
         </div>
+        <!--  -->
     </section>
+    <!--  -->
 </body>
 </html>
