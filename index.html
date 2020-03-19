@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
 </head>
 <body>
+    <!-- nav -->
     <nav class="w-15 h-100 position-fixed">
         <div class="nav-left w-15 h-100 float-left"></div>
         <div class="nav-right w-85 h-100 float-left">
@@ -33,7 +34,9 @@
             </div>
         </div>
     </nav>
+    <!-- header -->
     <header class="w-85 float-right">
+        <!-- header-top -->
         <div class="header-top">
             <div class="header-top-container h-100 container font-weight-bolder">
                 <div class="header-link w-90 float-left">
@@ -48,18 +51,19 @@
                 </div>
             </div>
         </div>
+        <!-- header-main -->
         <div class="header-main h-65">
             <div class="header-main-container h-100 container d-flex">
                 <div class="logo w-20 h-100 pt-5 pl-5">
                     <img id="logoImg" class="w-85" src="./images/icon/logo.png" alt="">
                 </div>
-                <form class="search-form w-40 h-100 pt-5 pl-3 position-relative">
+                <form class="search-form w-50 h-100 pt-5 pl-3 position-relative">
                     <input type="text" name="search" id="search" class="w-60 pl-3 font-weight-bolder" placeholder="듣고 싶은 강의를 선택해 보세요">
                     <img id="search-icon" class="h-20 position-absolute" src="./images/icon/search-icon.png" alt="">
                 </form>
                 <div class="bener-form w-35 pt-3 pb-3 ">
-                    <div class="bener-slider w-100 h-100 position-relative  font-weight-bolder">
-                        <div class="bener-1 bener w-80">
+                    <div class="bener-slider w-80 h-100 position-relative overflow-hidden font-weight-bolder">
+                        <div class="bener-1 bener w-100">
                             <img class="w-30 float-left mr-3 pt-3" src="./images/bener/bener-1.png" alt="">
                             <p class="pt-4">
                                 -2018년 한국브랜드 선호도1위<br>
@@ -67,37 +71,57 @@
                                 -2019년 한국직업능력개발원상<br>
                             </p>
                         </div>
-                        <div class="bener-2 bener w-80 h-100">
-                            <img class="w-30 float-left mr-3 pt-3" src="./images/bener/bener-1.png" alt="">
-                            <p class="pt-4">
-                                -2018년 한국브랜드 선호도1위<br>
-                                -2016년 고객만족브랜드대상<br>
-                                -2019년 한국직업능력개발원상<br>
+                        <div class="bener-2 bener w-100 h-100">
+                            <img class="w-30 float-left mr-3 pt-4 pl-2" src="./images/bener/bener-2.png" alt="">
+                            <p class="pt-4-5">
+                                교육 전 분야에 결친 <br>
+                                다양하고 우수한 콘텐츠!
                             </p>
                         </div>
-                        <div class="bener-3 bener w-80 h-100">
+                        <div class="bener-3 bener w-100 h-100">
                             <img class="w-30 float-left mr-3 pt-3" src="./images/bener/bener-1.png" alt="">
-                            <p class="pt-4">
-                                -2018년 한국브랜드 선호도1위<br>
-                                -2016년 고객만족브랜드대상<br>
-                                -2019년 한국직업능력개발원상<br>
+                            <p class="pt-4-5">
+                                최다과정! 최소비용! 최대혜택!으로 <br>
+                                자격증 취득을 약속합니다.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- header-footer -->
         <div class="header-footer h-25"> 
             <div class="header-footer-container h-100 container">
-                <ul>
-                    <li>학습지원센터</li>
-                    <li>커뮤니티</li>
-                    <li>전체강의보기</li>
-                    <li>내강의실</li>
-                    <li>장바구니</li>
+                <ul class="w-50 text-center d-flex justify-content-center font-weight-bolder ">
+                    <li><a href="#">학습지원센터</a></li>
+                    <li><a href="#">커뮤니티</a></li>
+                    <li><a href="#">전체강의보기</a></li>
+                    <li><a href="#">내강의실</a></li>
+                    <li><a href="#">장바구니</a></li>
                 </ul>
             </div>
         </div>
     </header>
+    <!-- <section> -->
+    <section class="w-85 float-right d-flex flex-column">
+        <!-- visual -->
+        <div id="visual">
+            <div class="visual-container h-100 container position-relative">
+                <div class="visual-slider h-100 pt-1">
+                    <div class="slider-1">
+                        <img class="w-100" src="./images/visual/visual-slider-1.png" alt="">
+                    </div>
+                </div>
+                <div class="slide-checkbox w-30 position-absolute">
+                    <input type="radio" name="slide-checkbox" id="slide-checkbox1">
+                    <input type="radio" name="slide-checkbox" id="slide-checkbox2">
+                    <input type="radio" name="slide-checkbox" id="slide-checkbox3">
+                    <label class="slide-checkbox1 w-9 h-100 pl-2 pr-2" for="slide-checkbox1"></label>
+                    <label class="slide-checkbox2 w-9 h-100 pl-2 pr-2" for="slide-checkbox2"></label>
+                    <label class="slide-checkbox3 w-9 h-100 pl-2 pr-2" for="slide-checkbox3"></label>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
