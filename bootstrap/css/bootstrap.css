@@ -8008,6 +8008,10 @@ button.bg-dark:focus {
   box-shadow: none !important;
 }
 
+.w-8 {
+  width: 8% !important;
+}
+
 .w-10 {
   width: 10% !important;
 }
@@ -8024,8 +8028,28 @@ button.bg-dark:focus {
   width: 25% !important;
 }
 
+.w-30 {
+  width: 30% !important;
+}
+
+.w-35 {
+  width: 35% !important;
+}
+
+.w-40 {
+  width: 40% !important;
+}
+
 .w-50 {
   width: 50% !important;
+}
+
+.w-60 {
+  width: 60% !important;
+}
+
+.w-70 {
+  width: 70% !important;
 }
 
 .w-75 {
@@ -8048,12 +8072,40 @@ button.bg-dark:focus {
   width: 100% !important;
 }
 
+.w-300 {
+  width: 300% !important;
+}
+
 .w-auto {
   width: auto !important;
 }
 
+.h-8 {
+  height: 8% !important;
+}
+
+.h-10 {
+  height: 10% !important;
+}
+
+.h-15 {
+  height: 15% !important;
+}
+
+.h-20 {
+  height: 20% !important;
+}
+
 .h-25 {
   height: 25% !important;
+}
+
+.h-30 {
+  height: 30% !important;
+}
+
+.h-40 {
+  height: 40% !important;
 }
 
 .h-45 {
@@ -8064,8 +8116,20 @@ button.bg-dark:focus {
   height: 50% !important;
 }
 
+.h-60 {
+  height: 60% !important;
+}
+
+.h-70 {
+  height: 70% !important;
+}
+
 .h-75 {
   height: 75% !important;
+}
+
+.h-80 {
+  height: 80% !important;
 }
 
 .h-100 {
@@ -8359,6 +8423,11 @@ button.bg-dark:focus {
 .pt-4,
 .py-4 {
   padding-top: 1.5rem !important;
+}
+
+.pt-4-5,
+.py-4-5 {
+  padding-top: 2rem !important;
 }
 
 .pr-4,

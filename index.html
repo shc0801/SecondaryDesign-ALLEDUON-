@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>올에듀온</title>
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" media="screen and (max-width: 480px)" href="/css/main(480px).css"/>
-    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="./css/main(480px).css"/>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
 </head>
 <body>
     <nav class="w-15 h-100 position-fixed">
@@ -16,18 +16,18 @@
                 <div class="nav-title text-center font-weight-bolder mt-4">ALLEDUON</div>
                 <div class="nav-menu">
                     <ul>
-                        <li><p>올에듀온 소개 <img src="/images/icon/소개-icon.png" alt=""></p></li>
-                        <li><p>패키지강좌 <img src="/images/icon/강좌-icon.png" alt=""></p></li>
-                        <li><p class="design-menu">디자인/영상 <img src="/images/icon/디자인-icon.png" alt=""></p> 
+                        <li><p>올에듀온 소개 <img src="./images/icon/소개-icon.png" alt=""></p></li>
+                        <li><p>패키지강좌 <img src="./images/icon/강좌-icon.png" alt=""></p></li>
+                        <li><p class="design-menu">디자인/영상 <img src="./images/icon/디자인-icon.png" alt=""></p> 
                             <ul class="nav-sub-menu w-100 h-100 float-left">
                                 <li>기초디자인</li>
                                 <li>그래픽디자인</li>
                                 <li>CG/영상그래픽</li>
                             </ul>
                         </li>
-                        <li><p>프로그래밍/IT정보보완 <img src="/images/icon/프로그래밍-icon.png" alt=""></p></li>
-                        <li><p>조리제과/제빵바리스타 <img src="/images/icon/바리스타-icon.png" alt=""></p></li>
-                        <li><p>고객센터 <img src="/images/icon/고객센터-icon.png" alt=""></p></li>
+                        <li><p>프로그래밍/IT정보보완 <img src="./images/icon/프로그래밍-icon.png" alt=""></p></li>
+                        <li><p>조리제과/제빵바리스타 <img src="./images/icon/바리스타-icon.png" alt=""></p></li>
+                        <li><p>고객센터 <img src="./images/icon/고객센터-icon.png" alt=""></p></li>
                     </ul>
                 </div>
             </div>
@@ -48,9 +48,54 @@
                 </div>
             </div>
         </div>
-        <div class="header-main">
-            <div class="header-main-container container">
-                
+        <div class="header-main h-65">
+            <div class="header-main-container h-100 container d-flex">
+                <div class="logo w-20 h-100 pt-5 pl-5">
+                    <img id="logoImg" class="w-85" src="./images/icon/logo.png" alt="">
+                </div>
+                <form class="search-form w-40 h-100 pt-5 pl-3 position-relative">
+                    <input type="text" name="search" id="search" class="w-60 pl-3 font-weight-bolder" placeholder="듣고 싶은 강의를 선택해 보세요">
+                    <img id="search-icon" class="h-20 position-absolute" src="./images/icon/search-icon.png" alt="">
+                </form>
+                <div class="bener-form w-35 pt-3 pb-3 ">
+                    <div class="bener-slider w-100 h-100 position-relative  font-weight-bolder">
+                        <div class="bener-1 bener w-80">
+                            <img class="w-30 float-left mr-3 pt-3" src="./images/bener/bener-1.png" alt="">
+                            <p class="pt-4">
+                                -2018년 한국브랜드 선호도1위<br>
+                                -2016년 고객만족브랜드대상<br>
+                                -2019년 한국직업능력개발원상<br>
+                            </p>
+                        </div>
+                        <div class="bener-2 bener w-80 h-100">
+                            <img class="w-30 float-left mr-3 pt-3" src="./images/bener/bener-1.png" alt="">
+                            <p class="pt-4">
+                                -2018년 한국브랜드 선호도1위<br>
+                                -2016년 고객만족브랜드대상<br>
+                                -2019년 한국직업능력개발원상<br>
+                            </p>
+                        </div>
+                        <div class="bener-3 bener w-80 h-100">
+                            <img class="w-30 float-left mr-3 pt-3" src="./images/bener/bener-1.png" alt="">
+                            <p class="pt-4">
+                                -2018년 한국브랜드 선호도1위<br>
+                                -2016년 고객만족브랜드대상<br>
+                                -2019년 한국직업능력개발원상<br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-footer h-25"> 
+            <div class="header-footer-container h-100 container">
+                <ul>
+                    <li>학습지원센터</li>
+                    <li>커뮤니티</li>
+                    <li>전체강의보기</li>
+                    <li>내강의실</li>
+                    <li>장바구니</li>
+                </ul>
             </div>
         </div>
     </header>

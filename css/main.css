@@ -49,3 +49,22 @@ header { height: 240px; background-color: #ffffff;  }
     
     padding: 0 5px; 
 }
+.header-main { border-bottom: 2px solid #a8a8a8; }
+
+#search { height: 50px; font-size: .9em; }
+#search-icon { left: 55%; top: 65%; cursor: pointer; } 
+
+/* bener */
+
+.bener-form { height: 140px; }
+.bener-slider { font-size: .95em; line-height: 25px; position: relative; }
+.bener-slider > div { position: absolute; }
+.bener-slider > div:nth-child(1) { transform: translate(-100%); animation: 18s bener-slider infinite; animation-delay: 5s }
+.bener-slider > div:nth-child(2) { transform: translate(0); animation: 18s bener-slider infinite; animation-delay: 10s}
+.bener-slider > div:nth-child(3) { transform: translate(100%); animation: 18s bener-slider infinite; animation-delay: 15s}
+
+@keyframes bener-slider {
+    0% { transform: translate(-100%); }    
+}
+
+.bener { height: 110px; float: left; }
