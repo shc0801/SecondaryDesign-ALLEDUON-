@@ -188,12 +188,12 @@ input[name=slide-checkbox] { display: none; }
 .item:nth-child(6) { grid-column: 2/4; grid-row: 5/6; }
 .item:nth-child(7) { grid-column: 1/3; grid-row: 7/8; }
 .item:nth-child(8) { grid-column: 2/4; grid-row: 7/8; }
-.item:nth-child(9) { grid-column: 1/3;grid-row: 9/10; }
+.item:nth-child(9) { grid-column: 1/3; grid-row: 9/10; }
 .item:nth-child(10) { grid-column: 2/4; grid-row: 9/10; }
 
 .explanation-1 { background-color: #BEB3E8; z-index: 100; }
-.explanation-2 { background-color: #FCD1FF; z-index: 100; }
-.explanation-3 { background-color: #E8B3CD; z-index: 100; }
+.explanation-2 { background-color: #E8B3D4; z-index: 100; }
+.explanation-3 { background-color: #D7C4FF; z-index: 100; }
 .explanation-4 { background-color: #C6E8B3; z-index: 100; }
 .explanation-5 { background-color: #d0ae81; z-index: 100; }
 
