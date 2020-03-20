@@ -191,8 +191,65 @@ input[name=slide-checkbox] { display: none; }
 .item:nth-child(9) { grid-column: 1/3;grid-row: 9/10; }
 .item:nth-child(10) { grid-column: 2/4; grid-row: 9/10; }
 
-.explanation-1 { background-color: #97c2ec; z-index: 100; }
-.explanation-2 { background-color: #b1a1df; z-index: 100; }
-.explanation-3 { background-color: #b1a1df; z-index: 100; }
-.explanation-4 { background-color: #7cc576; z-index: 100; }
+.explanation-1 { background-color: #BEB3E8; z-index: 100; }
+.explanation-2 { background-color: #FCD1FF; z-index: 100; }
+.explanation-3 { background-color: #E8B3CD; z-index: 100; }
+.explanation-4 { background-color: #C6E8B3; z-index: 100; }
 .explanation-5 { background-color: #d0ae81; z-index: 100; }
+
+.explanation-title > p { color: white; font-size: .78em; }
+.explanation-title > p > span { color: white; font-size: 1.7em; }
+.explanation-main { font-size: .85em; }
+.explanation-bar { height: 1px; background-color: #ffffff; }
+
+/*  */
+
+/* inquiry */
+
+#inquiry { height: 320px; }
+.inquiry { margin: 0 auto; }
+.inquiry-title { font-size: 1.2em; }
+.inquiry-title > div { margin: 0 auto; }
+
+/*  */
+
+/* board */
+#board { height: 350px; background-color: #ffffff; }
+.board { margin: 0 auto; font-size: 1.45em; }
+.notice-title, .review-title { border-bottom: 1px solid; }
+
+.notice-main { 
+    height: 150px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    cursor: pointer;
+}
+.notice-text { font-size: .7em; }
+.notice-day { font-size: .6em; color: #9a9a9a; }
+
+.review-main {
+    height: 150px;
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+
+    font-size: .55em;
+    cursor: pointer;
+}
+.notice-main > div, .review-main > div { border-bottom: 1px solid rgba(0,0,0,0.2); }
+.notice-btn { background-color: #ff7979; font-size: .4em; color: #ffffff; border-radius: 4px; }
+
+/*  */
+
+/* footer */
+
+footer { background-color: #272727; height: 150px; color: #ffffff; }
+.footer-left-title { font-size: .9em; }
+.footer-left-footer { font-size: .8em; color: rgba(255,255,255,0.4); }
+.footer-right { font-size: .8em ; color: rgba(255,255,255,0.8); }
+
+/*  */
