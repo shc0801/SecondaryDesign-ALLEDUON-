@@ -1,0 +1,5 @@
+/* 480px 초기설정 */
+
+.pc { display: none; }
+.mobile { display: block; }
+nav { left: -100%; }

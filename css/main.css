@@ -18,6 +18,9 @@ html, body { background-color: #f1f2f3; }
 
 .bar { height: 3px; margin: 0 auto; background-color: #ff3d3d; }
 
+.pc { display: block; }
+.mobile { display: none; }
+
 /* nav */
 
 .nav-left { background-color: #181818; }
